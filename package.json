@@ -1,0 +1,10 @@
+{
+  "name": "joseon-timeslip-server",
+  "version": "2.1.0",
+  "description": "朝鮮タイムスリップ 同時参加サーバー（部屋コードで参加）",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "public": "node server.js --public" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}

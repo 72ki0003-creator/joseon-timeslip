@@ -1,0 +1,12 @@
+# Render（https://render.com）にこのフォルダを置くときの設定
+services:
+  - type: web
+    name: joseon-timeslip
+    runtime: node
+    plan: free
+    buildCommand: echo "build not needed"
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: MAX_PLAYERS
+        value: "60"
